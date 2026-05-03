@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shinyukane | Homepage</title>
+<link rel="icon" href="./Gallery/Logo.png">
+<script src="script.js"></script>
+<script src="css.css"></script>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        background: #f5f7fb;
+        color: #333;
+    }
+
+    /* NAVBAR */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 50px;
+        background: rgba(0,0,0,0.8);
+        backdrop-filter: blur(10px);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    nav h2 {
+        color: #fff;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 25px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 15px;
+        border-radius: 20px;
+        transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+        background: #00bcd4;
+        color: black;
+    }
+
+    /* HERO SECTION */
+    .hero {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: linear-gradient(to right, #2196f3, #00bcd4);
+        color: white;
+        text-align: center;
+    }
+
+    .hero img {
+        width: 1000px;
+        margin-bottom: 15px;
+    }
+
+    .hero h1 {
+        font-size: 3em;
+    }
+
+    .hero p {
+        margin-top: 10px;
+        font-size: 1.2em;
+    }
+
+    /* PASS RATE SECTION */
+    .stats {
+        padding: 50px;
+        text-align: center;
+    }
+
+    .stats h2 {
+        margin-bottom: 20px;
+    }
+
+    .stat-box {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background: white;
+        padding: 25px;
+        border-radius: 15px;
+        width: 200px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    .card h3 {
+        color: #2196f3;
+        font-size: 2em;
+    }
+
+    /* FEATURES SECTION */
+    .features {
+        padding: 50px;
+        background: #fff;
+        text-align: center;
+    }
+
+    .features-container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .feature-box {
+        width: 250px;
+        padding: 20px;
+        border-radius: 15px;
+        background: #f1f1f1;
+        transition: 0.3s;
+    }
+
+    .feature-box:hover {
+        background: #00bcd4;
+        color: white;
+    }
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #222;
+        color: white;
+    }
+</style>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2> #1 IN NKOMAZI</h2>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="/WallOFFame.html" target="_blank"">WallOfFame</a></li>
+        <li><a href="/Teachers.html" target="_blank">Teachers</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <img src="./Gallery/Logo.png" alt="School Logo">
+    <h1></h1>
+    <p></p>
+</section>
+
+<!-- PASS RATE -->
+<section class="stats">
+    <h2>Past Pass Rates</h2>
+    <div class="stat-box">
+        <div class="card">
+            <h3>95.4%</h3>
+            <p>2025</p>
+        </div>
+        <div class = "card">
+            <h3>95.4%</h3>
+            <p>2024</p>
+        </div>
+        <div class="card">
+            <h3>93.3%</h3>
+            <p>2023</p>
+        </div>
+        <div class="card">
+            <h3>83.4%</h3>
+            <p>2022</p>
+        </div>
+        <div class="card">
+            <h3>78.93%</h3>
+            <p>2021</p>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+    <h2>Why Choose Our School?</h2>
+    <br>
+    <div class="features-container">
+        <div class="feature-box">
+            <h3>📚 Quality Education</h3>
+            <p>Modern teaching with latest curriculum</p>
+        </div>
+        <div class="feature-box">
+            <h3>🏆 Excellence</h3>
+            <p>Top performance every year</p>
+        </div>
+        <div class="feature-box">
+            <h3>💻 Dedicated Teachers</h3>
+            <p> Extra classes for the hard working at zero 0% fees</p>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 SHINYUKANE | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
